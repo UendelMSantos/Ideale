@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/faleconosco.css">
+    <title>FaleConosco</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="modelo.html">Pagina Inicial</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="faleconosco.html">Fale Conosco<span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#">Sugestões</a>
+                        <a class="nav-item nav-link" href="#">Suas Compras</a>
+                        <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                   </div>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+    <section class="container">
+        
+            <div class="jumbotron jumbotron-fluid">
+                    <div class="container" >
+                    <h1 class="display-4">Olá, Fale conosco!</h1><br />
+                    <form name="formu" action="modelo.html" method="POST" onsubmit="return validar()">
+                      <div class="row">
+                        <div class="col-md-6">
+                        <label for="">Nome:</label>
+                        <input type="text" name="nome"  placeholder="Nome"><br /><br />
+                        <label for="">CPF:</label>
+                        <input type="number" name="cpf"  placeholder="cpf"><br /><br />
+                        <label for="">Email:</label>
+                        <input type="email" name="email"  placeholder="email@exemplo.com"><br /><br />
+                        </div>
+                        <div class="col-md-6">
+                        <label for="">Sugestão:</label><br \>
+                        <textarea name="sugestao"  cols="40" rows="5"></textarea> <br /><br />
+                        </div>
+                      </div>      
+                        <input type="submit" value="Enviar" name="enviar" onclick="validar()">
+                    
+                    </form>
+                    </div>
+                  </div>
+        
+    </section>
+    <footer>
+
+    </footer>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/faleconosco.js"></script>
+</body>
+</html>

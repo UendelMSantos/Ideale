@@ -1,0 +1,112 @@
+
+body{
+    background-color: #ebc66a;
+}
+
+.imagem{
+    position: relative;
+    background: url(../img/cabides.png);
+    width: 1110px;
+    height: 300px;
+}
+.imagem h1{
+    padding-left: 10px;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    font-family: 'Merriweather', serif;
+
+}
+
+.novidades h2{
+   font-size: 24px;
+   font-weight: bold;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+   padding-top: 10px;
+   text-align: center;
+   text-shadow: 2px 2px 1px rgb(245, 231, 231);    
+}
+.mais-vendidos h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 1px #fff;
+ }
+.novidades{
+    background-color: rgb(224, 188, 188);
+    border-radius: 5px;
+    width: 530px;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(61, 57, 57);
+}
+.mais-vendidos{
+    background-color: #a35ab9;
+    border-radius: 5px;
+    width: 530px;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(49, 46, 46);
+}
+
+.novidades li{
+   display: inline-block;
+   vertical-align: top;
+   width: 140px;
+   margin: 2px;
+   padding-bottom: 10px;
+   
+}
+.mais-vendidos li{  
+   display: inline-block;
+   vertical-align: top;
+   width: 140px;
+   margin: 2px;
+   padding-bottom: 10px;   
+   
+}
+
+.novidades ol{
+    margin-left: -05px;
+}
+.novidades a{
+    color: #333;
+   font-size: 14px;
+   text-align: center;
+   text-decoration: none;
+}
+.mais-vendidos a{
+   color: #333;
+   font-size: 14px;
+   text-align: center;
+   text-decoration: none;
+}
+#msg{
+    position: absolute;
+    bottom: 0;
+    
+}
+.novidades li:hover{
+   background-color: rgba(255,255,255,0.8);
+   box-shadow: 0 0 5px #333;
+   transition: 0.7s ease-in;
+   transform: scale(1.2) rotate(-5deg);
+}
+.mais-vendidos li:hover{
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 0 0 5px #333;
+    transition: 0.7s ease-in;  
+    transform: scale(1.2) rotate(-5deg);
+
+}
+.novidades li{
+    transition: 0.7s ease-out;
+}
+.mais-vendidos li{
+    transition: 0.7s ease-out; 
+}
+footer{
+    background-color: #f8f9fa
+}
+
